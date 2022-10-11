@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    background-image: url(
+        https://images.unsplash.com/photo-1547483238-f400e65ccd56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&
+        fit=crop&w=1170&q=80);
+        background-size:cover;
+        background-repeat:no-repeat;
+        font-family:tahoma, sans-serif;
+
+}
+
+.form-area{
+position: absolute;
+top:5%;
+left:5%;
+transform: translate(-50,  -50%);
+width: 400px;
+height: 500px;
+pedding:40px;
+box-sizing: border-box;
+background: rgba(0, 0, 0, .5);
+border-radius: 20px;
+
+}
+
+h3{
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.form-area p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+
+}
+
+.form-area input, select{
+    margin-bottom: 25px;
+    width: 250px;
+
+}
+
+.form-area input[type=text],
+.form-areainput[type=password]{
+    border:none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    display: 16px;
+
+}
+
+::placeholder{
+    color:darkgray;
+
+}
+
+.form-area select{
+    margin-top: 20px;
+    padding: 10px, 0;
+}
+
+.form-area input[type=submit]{
+    border: none;
+    height: 40px;
+    outline:none ;
+    color: white;
+    font-size: 15px;
+    background-color: indianred;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.form-area input[type=submit]:hover{
+    background-color: dimgray;
+    color: rgb(17, 211, 218);
+
+}
+
+.form-area a{
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 20px;
+
+}
+
+.heading{
+    margin: 300px;
+    padding: 230px;
+    margin-top: auto;
+    margin-right: 800px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    
+}
